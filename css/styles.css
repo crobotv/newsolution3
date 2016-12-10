@@ -1,0 +1,97 @@
+/**body**/
+
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: silver;
+	font-family: 'Raleway', sans-serif;
+	padding: 0, 5%, 0, 5%;
+
+}
+
+
+header {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/**header**/
+
+#logo-img {
+	background: url('../images/spoon-sm.png') no-repeat;
+	width: 218px;
+	height: 100px;
+	margin: 10px;
+}
+
+#logo-img-xs {
+	background: url('../images/xs.png') no-repeat;
+	width: 1px;
+	height: 100px;
+	margin: 10px;
+	clear: both;
+}
+
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 { /*Food, LLC*/
+	font-family: 'Fjalla One', sans-serif;
+	color: #9B241C;
+	font-size: 3em;	
+	text-transform: uppercase;
+	text-shadow: 1px 1px 8px #222;
+	text-align: center;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+
+
+.h1 {
+	color: #9B241C;
+	margin: 10px;
+}
+
+h1 {
+	font-family: 'Fjalla One' sans-serif;
+	font-size: 60px;
+	margin: 0;
+	clear: both;
+
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.title {
+	color: black;
+	background: rgba(144, 144, 144, 0.75);
+	position: absolute;
+	text-align: center;
+	margin-top: -2.4em;
+	padding: .5em;
+	font-size: 1.2em;
+	overflow: none;
+
+}
+
+/* links*/
+a:link a:visited a:hover a:active {
+    text-decoration: none;
+}
+
+#nav-list {
+	background-color: white;
+	color: black;
+}
+
